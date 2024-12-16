@@ -1,0 +1,3 @@
+module ATmega1280 {
+  export *
+}
