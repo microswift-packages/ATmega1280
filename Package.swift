@@ -9,7 +9,9 @@ let package = Package(
             name: "ATmega1280",
             targets: ["ATmega1280"]),
     ],
-    dependencies: [.package(path: "/Users/carl/Documents/Code/HALGEN/build/ATmega1280//../HAL")],
+    dependencies: [
+    .package(url: "https://github.com/microswift-packages/hal-baseline", from: "2.0.0")
+    ],
     targets: [
         .target(
             name: "ATmega1280",
